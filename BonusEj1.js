@@ -21,8 +21,9 @@ var consulta= window.prompt("Ingrese su catergoría de Monotributo")
 if (consulta== "a"|| consulta=="A"){
     var consultaB= window.prompt("Indique la opción deseada: A- Ingresos Brutos. B-Actividad.")
         switch(afip){
-            case 'A': alert('Usted está en la categoría'+categoria+' y sus ingresos brutos son'+IngresosBrutos),
+            case 'A': alert('Usted está en la categoría'+categoria+' y sus ingresos brutos son'+IngresosBrutos);
                 break;
-            case 'B':alert('Usted está en la categoría'+categoria+' y su actividad es '+Actividad),
-                break
+            case 'B':alert('Usted está en la categoría'+categoria+' y su actividad es '+Actividad);
+                break;
         }
+    }
